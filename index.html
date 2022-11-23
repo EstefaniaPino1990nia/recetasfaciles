@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="src/js/menu.js"></script>
+    <script src="src/js/lightbox.js"></script>
+</head>
+
+<body>
+    <header class="header" id="inicio">
+        <nav role="navigation">
+            <div class="informacion_inicial" style="display: flex;">
+
+                <button onclick="mensaje()"></button>
+
+            </div>
+            <div id="menuToggle">
+
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+
+                <ul id="menu">
+                    <a href="#inicio" style="text-decoration: none ; color: rgb(10, 203, 251);">
+                        <li>Inicio &nbsp;</li>
+                    </a>
+                    <a href="#servicio" style="text-decoration: none ; color: rgb(10, 203, 251);">
+                        <li>Servicios &nbsp; </li>
+                    </a>
+                    <a href="#portafolio" style="text-decoration: none; color: rgb(10, 203, 251);">
+                        <li>Galeria de imagenes &nbsp; </li>
+                    </a>
+                    <a href="#expertos" style="text-decoration: none; color: rgb(10, 203, 251);">
+                        <li>Recetas &nbsp; </li>
+                    </a>
+                    <a href="#contacto" style="text-decoration: none; color: rgb(10, 203, 251);">
+                        <li>Contacto</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Recetas fáciles</h1>
+            <p class="copy">Elige entre una gran variedad de recetas de nuestra web.</p>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor" id="servicio">
+            <h2 class="subtitulo">Información</h2>
+            <div class="contenedor-servicio">
+                <img src="src/imagenes/12.png">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Recetas de pescado</h3>
+                        <p>Crea rápidas recetas de pescado que seguro que a todos les encantarán. 
+                            Estas recetas están pensadas para que en poco tiempo puedas tener tu plato servido en la mesa.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Recetas de carne</h3>
+                        <p>Crea rápidas recetas de carne que seguro que a todos les encantarán. 
+                            Estas recetas están pensadas para que en poco tiempo puedas tener tu plato servido en la mesa.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Recetas de verduras</h3>
+                        <p>Crea rápidas recetas con verduras que seguro que a todos les encantarán. 
+                        Estas recetas están pensadas para que en poco tiempo puedas tener tu plato servido en la mesa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Imagenes de nuestras recetas</h2>
+                <div class="contenedor-galeria">
+                    <img src="src/imagenes/21.jpg" alt="" class="img-galeria">
+                    <img src="src/imagenes/22.jpg" alt="" class="img-galeria">
+                    <img src="src/imagenes/3.jpg" alt="" class="img-galeria">
+                    <img src="src/imagenes/9.jpg" alt="" class="img-galeria">
+                    <img src="src/imagenes/28.jpg" alt="" class="img-galeria">
+                    <img src="src/imagenes/35.jpeg" alt="" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Recetas</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="src/imagenes/pescado.jpg">
+                    <h3 class="n-expert"><a href="galeria.php" style="text-decoration: none; color: black;">Recetas de Pescado</a></h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="src/imagenes/carne.jpg">
+                    <h3 class="n-expert"><a href="galeria2.php" style="text-decoration: none; color: black;">Recetas de Carne</a></h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="src/imagenes/verdura.png">
+                    <h3 class="n-expert"><a href="galeria3.php" style="text-decoration: none; color: black;">Recetas de verduras</a></h3>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Estefania Pino</h2>
+                <p>Desarrollo de aplicaciones web</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+</body>
+
+</html>
